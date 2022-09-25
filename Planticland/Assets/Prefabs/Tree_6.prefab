@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3488494405122122140}
   - component: {fileID: 6113769962164552434}
   - component: {fileID: -7177964433210117117}
+  - component: {fileID: 6049106004534955399}
   m_Layer: 0
   m_Name: Tree_6
   m_TagString: Untagged
@@ -106,11 +107,29 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4262518238948457209}
   serializedVersion: 2
-  m_Mass: 30
+  m_Mass: 50
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 94
   m_CollisionDetection: 0
+--- !u!114 &6049106004534955399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4262518238948457209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45452cc2466919ba9bbfcee49c653d67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 6
+  growthRate: 0.0011
+  maximumScale: 1.8
+  color: Red
+  lifeTime: 28
+  deadTime: 4

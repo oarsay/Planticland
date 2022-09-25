@@ -60,6 +60,8 @@ public abstract class Tree : MonoBehaviour
     IEnumerator Death(int seconds)
     {
         //The tree is dead now, add some force to the rigidbody to make it fall on the ground
+        treeRigidbody.useGravity = true;
+        treeRigidbody.constraints = RigidbodyConstraints.None;
         treeRigidbody.AddForce(Vector3.right * 5, ForceMode.Impulse);
 
         //And then wait until destruction

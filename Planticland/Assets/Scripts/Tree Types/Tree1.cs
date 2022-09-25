@@ -5,9 +5,9 @@ public class Tree1 : Tree
         //Initialize the tree type-spesific attributes
         type = 1;
         color = "Black";
-        growthRate = 0.005f; //0.002
+        growthRate = 0.0015f;
         maximumScale = 1.5f;
-        lifeTime = 2;
-        deadTime = 5;
+        lifeTime = 35;
+        deadTime = 7;
     }
 }
