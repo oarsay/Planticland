@@ -1,3 +1,4 @@
+// INHERITANCE
 public class Tree5 : Tree
 {
     public Tree5()//Constructor
